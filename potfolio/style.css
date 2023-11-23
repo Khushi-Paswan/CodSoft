@@ -1,0 +1,259 @@
+header{
+    height: 115vh;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.9)rgba(0,0,0,0.9));
+    background-image: url("background2.jpg");
+    color: white;
+    background-size: cover;
+    padding: 0 30px;
+}
+
+nav{
+    height: 60px;
+    width: 100%;
+    background: rgb(18, 2, 61);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 50px;
+    font-family: 'Poppins';
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+   padding-right: 0.5rem;
+   padding-left: 0.5rem;
+   margin-right: 80px;
+}
+
+.logo{
+    font-size: 2.1rem;
+    letter-spacing: 2.1px;
+    font-weight: bold;
+}
+.menu a:hover{
+border-radius: 5px;
+background: skyblue;
+padding: 0.5rem 0.5rem;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 70px;
+}
+.left{
+    flex-basis: 25%;
+}
+.right{
+    flex-basis: 30%;
+}
+h2{
+    font-family: 'Gill Sans';
+}
+.left h1{
+    color: skyblue;
+    font-family: 'Kalam',cursive;
+    font-size: 3em;
+    line-height: 0%;
+    
+}
+.left p{
+    line-height: none;
+     font-family: arial;
+}
+#hire{
+    background: #fe7dde;
+    color: white;
+    text-decoration: none;
+    padding: 1rem 1rem;
+    border-radius: 7px;
+    font-size: 1.2rem;
+    margin: 0 1rem;
+}
+#myport{
+    border-radius: 7px;
+    border: 2px dashed white;
+    text-decoration: none;
+    padding: 1rem 1rem;
+    font-size: 1.2rem;
+    margin: 0 1rem;
+    color: white;
+}
+#hire:hover{
+    background-color: skyblue;
+   
+}
+
+#myport:hover{
+    background-color: skyblue;
+}
+section{
+    background-color: skyblue;
+
+}
+#mybio{
+    font-family: 'Poppins';
+    padding: 120px 3px;
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.left2{
+    flex-basis: 40%;
+}
+.right2{
+    flex-basis: 60%;
+    text-align: left;
+}
+.right2 h1{
+    font-size: 2.5rem;
+}
+.right2 p1{
+    font-size: 2rem;
+    font-family: 'Poppins' sans-serif;
+    
+}
+
+.left2 img{
+    height: 750px;
+    width: 100%;
+    border-radius: 10px;
+}
+.right2{
+     text-align: right;
+}
+.right2 p{
+    line-height: 3rem;
+    margin: 15px 0;
+}
+
+.info{
+    text-align: left;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 70px 0px;
+}
+#follow{
+    text-align: center;
+    color: rgb(90, 2, 90); 
+}
+#follow i{
+    margin: 0 0.rem;
+    font-size: 2rem;
+}
+#follow i:hover{
+    color: #fe7dde;
+    
+}
+.skills{
+    height: 110%;
+    padding: 50px 70px;
+    width: 100%;
+    font-family: 'Poppins',sans-serif;
+    text-align: center;
+
+}
+.introduction h1{
+    font-size: 2rem;
+    padding: 0 1rem;
+}
+
+.card{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3rem;
+    flex-wrap: wrap;
+    padding-bottom: 7rem;
+}
+.cardbody{
+    padding: 1rem 0.5rem;
+    background: rgb(190, 232, 249);
+    flex-basis: 30%;
+    border-radius: 7px;
+    margin: 0 1rem;
+}
+.cardbody2{
+    padding: 1rem 0.5rem;
+    background: rgb(190, 232, 249);
+    flex-basis: 30%;
+    border-radius: 7px;
+    margin: 3rem 8.5rem;
+}
+.cardbody i{
+    color: rgb(90, 2, 90); 
+    font-size: 2rem;
+    text-align: center;
+}
+.cardbody2 i{
+    color: rgb(90, 2, 90); 
+    font-size: 2rem;
+    text-align: center;
+}
+#contact{
+    height: 100%;
+    width: 100%;
+    background: skyblue;
+    padding-bottom: 7rem;
+}
+.card2{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3rem;
+    flex-wrap: wrap;
+}
+.cardbody3{
+    padding: 1rem 0.5rem;
+    background: rgb(190, 232, 249);
+    flex-basis: 30%;
+    border-radius: 7px;
+    margin: 2rem 8.5rem;
+    
+}
+.cardbody4{
+    padding: 1rem 0.5rem;
+    background: rgb(190, 232, 249);
+    flex-basis: 30%;
+    border-radius: 7px;
+    margin: 2rem 8.5rem;
+}
+#contact h1{
+    font-size: 2rem;
+    padding: 0 1rem;
+}
+#contact i{
+    color: rgb(90, 2, 90); 
+    font-size: 1.5rem;
+    text-align: center;
+}
+#cardbody4 i1{
+    font-size: 1rem;
+   
+}
+footer{ 
+ background: rgb(18, 2, 61);
+color: white;
+font-size: 2rem;
+padding: 0.5rem;
+font-family: 'Poppins' sans-serif;
+text-align: center;
+height: 50px;
+
+}
