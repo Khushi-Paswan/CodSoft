@@ -1,0 +1,112 @@
+body{
+    color: white;
+    background-color: rgb(2, 2, 39);
+}
+
+nav{
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Courier New';
+    position: absolute;
+    top:0;
+
+}
+
+.menu a {
+    color: aliceblue;
+    font-size: 22px;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: arial;
+
+}
+
+.menu a:hover{
+    background: #f44632;
+    transition: 0.2s linear;
+    border-radius: 4px;
+ 
+}
+
+.box{
+    top: 25%;
+    left: 8%;
+    position: absolute;
+}
+
+.box1{
+    width: 10px;
+    height: 10px;
+    background: whitesmoke;
+}
+
+
+.box2{
+    width: 50px;
+    height: 4px;
+    background: whitesmoke;
+}
+
+
+.box3{
+    width: 100px;
+    height: 4px;
+    background: whitesmoke;
+}
+.container{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 10px;
+    padding-top: 360px;
+    
+}
+.left{
+    flex-basis: 40%;
+
+}
+.right{
+    flex-basis: 50%;
+}
+.right img{
+    width: 100%;
+}
+
+.left h1{
+    font-size: 4rem;
+
+}
+button{
+    color:white;
+    background-color:  #f44632;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: aqua;
+    transition: initial;
+    color: blue;
+}
+.icon{
+    position: absolute;
+    bottom: 10%;
+    top: 90%;
+    left: 8%;
+}
+
+.icon img{
+    width: 60px;
+}
+
+.icon img:hover{
+    transition: 2s initial;
+    background: whitesmoke;
+    border-radius: 3px;
+}
